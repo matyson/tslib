@@ -7,7 +7,9 @@
   "type": "module",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
-    "lint": "tsc"
+    "lint": "tsc",
+    "test": "bun test",
+    "dev": "bun test --watch"
   },
   "devDependencies": {
     "@types/bun": "latest",
