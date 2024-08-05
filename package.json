@@ -1,16 +1,19 @@
 {
   "name": "tslib",
-  "description": "",
-  "author": "Matheus Luís Bernardi",
   "version": "0.0.0",
+  "description": "",
   "module": "index.ts",
   "type": "module",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
     "test": "bun test",
-    "dev": "bun test --watch"
+    "dev": "bun test --watch",
+    "ci": "bun run lint && bun run test && bun run build"
   },
+  "author": "Matheus Luís Bernardi",
+  "license": "MIT",
+  "keywords": [],
   "devDependencies": {
     "@types/bun": "latest",
     "tsup": "^8.2.4"
