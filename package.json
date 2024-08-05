@@ -2,8 +2,9 @@
   "name": "tslib",
   "version": "0.0.0",
   "description": "",
-  "module": "index.ts",
-  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
