@@ -1,11 +1,13 @@
 {
   "name": "tslib",
+  "description": "",
   "author": "Matheus Luís Bernardi",
   "version": "0.0.0",
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts"
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc"
   },
   "devDependencies": {
     "@types/bun": "latest",
