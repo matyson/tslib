@@ -1,6 +1,6 @@
 {
   "name": "tslib",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -16,6 +16,7 @@
   "license": "MIT",
   "keywords": [],
   "devDependencies": {
+    "@changesets/cli": "^2.27.7",
     "@types/bun": "latest",
     "tsup": "^8.2.4"
   },
